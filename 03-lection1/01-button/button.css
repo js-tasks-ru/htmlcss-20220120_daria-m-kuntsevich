@@ -1,1 +1,45 @@
 /* Стилизация кнопки */
+
+/*display: inline-block;*/
+
+
+.button__default {
+    width: 182px;
+    height: 48px;
+    border-radius: 8px;
+    display:inline-block;
+}
+
+.button_primary {
+    background: #4263EB;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.button_secondary {
+    background: #7048E8;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.button_alternate {
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    color: #495057 Gray4;
+}
