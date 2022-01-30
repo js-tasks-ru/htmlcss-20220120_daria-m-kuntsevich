@@ -1,16 +1,71 @@
-header {
-color: red;
+h1 {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+a {
+    color: white;
 }
 nav {
-color: orange;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: thin;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
 }
 main {
-color: blue;
-border: 5px solid green;
+    border: 16px solid green;
+    background-color: blue;
+
 }
+
 article {
-color: blue; 
+    color: white; 
+    background-color: blue;
+    border: 10px solid green;
+    height: 200px;
+    line-height: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: thin;
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 2em;
+}
+
+
+li{
+    color: white;
+    line-height: normal;
+    font-size: 16px;
+    font-weight: normal;
+  
 }
 footer {
-color:blueviolet;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    background-color: violet;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: regular;
+    text-align: center;
+    margin: 0;
+
 }
