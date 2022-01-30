@@ -1,0 +1,16 @@
+header {
+color: red;
+}
+nav {
+color: orange;
+}
+main {
+color: blue;
+border: 5px solid green;
+}
+article {
+color: blue; 
+}
+footer {
+color:blueviolet;
+}
