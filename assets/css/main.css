@@ -1,6 +1,6 @@
 @import '../fonts/fonts.css';
 
-/*
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -23,7 +23,7 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-*/
+
 h1 {
     height: 80px;
     line-height: 80px;
