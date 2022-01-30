@@ -3,14 +3,19 @@
 /*display: inline-block;*/
 
 
-.button__default {
-    width: 182px;
-    height: 48px;
+:root {
+    --width-primary: 182px;
+    --height-primary: 48px;
+}
+
+.button {
+    width: var(--width-primary);
+    height: var(--height-primary);
     border-radius: 8px;
     display:inline-block;
 }
 
-.button_primary {
+.default_primary {
     background: #4263EB;
     font: Roboto;
     font-size: 16px;
@@ -21,7 +26,7 @@
     color: #FFFFFF;
 }
 
-.button_secondary {
+.default_secondary {
     background: #7048E8;
     font: Roboto;
     font-size: 16px;
@@ -32,7 +37,8 @@
     color: #FFFFFF;
 }
 
-.button_alternate {
+.default_alternate {
+    background: #ffffff;
     border: 1px solid #ACB5BD;
     box-sizing: border-box;
     font: Roboto;
@@ -41,5 +47,74 @@
     font-style: normal;
     text-align: center;
     line-height: 19px;
-    color: #495057 Gray4;
+}
+
+.hover_primary {
+    background: #2342C0;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.hover_secondary {
+    background: #5028C6;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.hover_alternate {
+    background: #ffffff;
+    border: 1px solid #212429;
+    box-sizing: border-box;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+}
+.disable_primary {
+    background: #4263EB;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.disable_secondary {
+    background: #7048E8;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.disable_alternate {
+    background: #ffffff;
+    border: 1px solid #ACB5BD;
+    box-sizing: border-box;
+    font: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    line-height: 19px;
+    opacity: 50%;
+}
+
+.button__disable {
+    pointer-events: none !important;
 }
