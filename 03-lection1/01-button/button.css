@@ -3,21 +3,11 @@
 /*display: inline-block;*/
 
 
-:root {
-    --width-primary: 182px;
-    --height-primary: 48px;
-}
-
 .button {
     width: var(--width-primary);
     height: var(--height-primary);
     border-radius: 8px;
     display:inline-block;
-}
-
-.default_primary {
-    background: #4263EB;
-    font: Roboto;
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
@@ -26,95 +16,30 @@
     color: #FFFFFF;
 }
 
-.default_secondary {
-    background: #7048E8;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
-    color: #FFFFFF;
+.button_primary {
+    background-color: var(--primary);
 }
-
-.default_alternate {
-    background: #ffffff;
-    border: 1px solid #ACB5BD;
-    box-sizing: border-box;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
+.button_secondary {
+    background-color: var(--secondary);
 }
-
-.hover_primary {
-    background: #2342C0;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
-    color: #FFFFFF;
+.button_alternate{
+    background-color: var(--white);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
 }
-.hover_secondary {
-    background: #5028C6;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
-    color: #FFFFFF;
+.button_primary:hover {
+    cursor: pointer;
+    background-color: var(--blue-2);
 }
-.hover_alternate {
-    background: #ffffff;
-    border: 1px solid #212429;
-    box-sizing: border-box;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
+.button_secondary:hover {
+    cursor: pointer;
+    background-color: var(--purple-2);
 }
-.disable_primary {
-    background: #4263EB;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
-    color: #FFFFFF;
+.button_alternate:hover {
+    cursor: pointer;
+    border: 1px solid var(--black);
+}
+.button:disabled {
+    pointer-events: none;
     opacity: 50%;
-}
-.disable_secondary {
-    background: #7048E8;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
-    color: #FFFFFF;
-    opacity: 50%;
-}
-.disable_alternate {
-    background: #ffffff;
-    border: 1px solid #ACB5BD;
-    box-sizing: border-box;
-    font: Roboto;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    line-height: 19px;
-    opacity: 50%;
-}
-
-.button__disable {
-    pointer-events: none !important;
 }
