@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <!-- Страница с кнопкой -->
+
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/reset.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./button.css">
+
+        <style>
+            .buttons {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 10px;
+            }
+            .buttons-demo {
+                max-width: 700px;
+                margin: 0 auto;
+            }
+        </style
     </head>
     <body>
+        <div class="buttons buttons-demo">
+            <span><button class="button button_primary">Primary</button></span> 
+            <span><button class="button button_secondary">Secondary</button></span> 
+            <span><button class="button button_alternate">Alternate</button></span>
+        </div>
+
+        <div class="buttons buttons-demo">
+            <span><button class="button button_primary" disabled>Primary</button></span> 
+            <span><button class="button button_secondary" disabled>Secondary</button></span> 
+            <span><button class="button button_alternate" disabled>Alternate</button></span>
+        </div>
 
     </body>
 </html>

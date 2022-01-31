@@ -1,6 +1,5 @@
 @import '../fonts/fonts.css';
 
-
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -13,85 +12,21 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --blue-2: #2342C0;
+    --purple-2: #5028C6;
+
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --width-primary: 182px;
+    --height-primary: 48px;
 }
 
 * {
     font-family: 'Roboto', sans-serif;
-}
-
-h1 {
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    color: white;
-    background-color: red;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin: 0;
-}
-
-a {
-    color: white;
-}
-nav {
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    background-color: orange;
-    color: white;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: thin;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
-}
-main {
-    border: 16px solid green;
-    background-color: blue;
 
 }
 
-article {
-    color: white; 
-    background-color: blue;
-    border: 10px solid green;
-    height: 200px;
-    line-height: 20px;
-    color: white;
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: thin;
-    padding-left: 10px;
-    text-align: left;
-    vertical-align: middle;
-    padding-top: 2em;
-}
-
-
-li{
-    color: white;
-    line-height: normal;
-    font-size: 16px;
-    font-weight: normal;
-  
-}
-footer {
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    color: white;
-    background-color: violet;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: regular;
-    text-align: center;
-    margin: 0;
-
-}
