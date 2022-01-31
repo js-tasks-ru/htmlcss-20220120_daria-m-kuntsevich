@@ -27,9 +27,20 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
 
+.buttons_demonstration {
+    max-width: 700px;
+    margin: 0 auto;
+}
 .button {
     width: var(--width-primary);
     height: var(--height-primary);
@@ -66,7 +77,7 @@
     cursor: pointer;
     border: 1px solid var(--black);
 }
-.button_disabled {
+.button:disabled {
     pointer-events: none;
     opacity: 50%;
 }
