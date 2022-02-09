@@ -1,6 +1,6 @@
 .calendar {
-    width: 304px;
-    height: 324px;
+    /*width: 304px;
+    height: 324px;*/
     padding: 28px 30px 40px 30px;
   
     border: 1px solid var(--grey-3);
@@ -18,7 +18,7 @@
     grid-template-columns: repeat(7, 1fr);
   }
   
-  .calendar__month {
+  .calendar__title {
     margin-bottom: 1.5rem;
   
     text-align: center;
