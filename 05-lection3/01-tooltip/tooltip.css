@@ -1,8 +1,8 @@
-.tooltip {
+/*.tooltip {
     display: inline-flex;
     position: relative;
     transform: translate(0, 500%);
-}
+}*/
 .tooltip__icon {
     width: 24px;
     height: 24px;
@@ -20,27 +20,27 @@
     font-weight: 400;
     color: #fff;
     padding: 10px;
-    position: absolute;
+    /*position: absolute;
     left: 50%;
     bottom: calc(100% + 8px);
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
     font-size: 'Inter', sans-serif;
     white-space: nowrap;
     display: none;
 }
 .tooltip__bubble:after{
     content: "";
-    position: absolute;
+    /*position: absolute;
     top: 100%;
-    left: 50%;
+    left: 50%;*/
     border: 12px solid transparent;
     border-top: 8px solid var(--blue);
-    transform: translateX(-50%);
+    /*transform: translateX(-50%);*/
 }
-.tooltip__icon:hover ~ .tooltip__bubble {
+/*.tooltip__icon:hover ~ .tooltip__bubble {
     display: block;
 }
-/*body {
+body {
     text-align: center;
 
 }*/

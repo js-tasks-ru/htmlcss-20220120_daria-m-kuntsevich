@@ -4,8 +4,23 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./tooltip.css">
+        <style>
+            html,
+            body {
+                height: 100%;
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .tooltip__icon:hover ~ .tooltip__bubble 
+            {
+                display: block;
+            }
+        </style>
     </head>
-    <body style="text-align: center";>
+    <body>
         <div class="tooltip">  
             <div class="tooltip__icon">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,7 +30,7 @@
                     </svg>                   
             </div>
             <div class="tooltip__bubble">
-                Helper Text
+                <span class="">Helper Text</span>
             </div>  
         </div>
     </body>
