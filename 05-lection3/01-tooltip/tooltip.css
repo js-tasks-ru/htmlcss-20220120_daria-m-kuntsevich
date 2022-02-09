@@ -40,7 +40,7 @@
 .tooltip__icon:hover ~ .tooltip__bubble {
     display: block;
 }
-body {
+/*body {
     text-align: center;
 
-}
+}*/
