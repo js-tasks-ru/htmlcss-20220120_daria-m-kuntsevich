@@ -1,11 +1,3 @@
-.container {
-    width:auto;
-    padding: 24px 40px 32px 24px;
-  }
-  
-  .skeleton__content {
-    width: initial;
-  }
 
 .skeleton {
     padding: 32px 40px 32px 24px;
@@ -18,7 +10,7 @@
     background: var(--grey-2);
   }
   
-  .skeleton__content-inner {
+  .skeleton__inner {
     width: 66%;
     display: flex;
     align-items: center;
@@ -38,20 +30,20 @@
     width: 77%;
   }
   
-  .skeleton__line-short {
+  .skeleton__line_short {
     width: 67%;
     margin-bottom: 8px;
   }
   
-  .skeleton__line-long {
+  .skeleton__line_long {
     width: 87%;
   }
   
-  .skeleton__content-line-text {
+  .skeleton__line_text {
     width: 100%;
     margin-bottom: 8px;
   }
   
-  .skeleton__content-line-text:last-child {
+  .skeleton__line_text:last-child {
     margin-bottom: 0;
   }
