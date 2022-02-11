@@ -1,4 +1,5 @@
 @import '../fonts/fonts.css';
+@import '../../components/components.css';
 
 :root {
     --white: #ffffff;
@@ -12,6 +13,9 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --grey-5: #90A0B7;
+    --grey-6: #F9FAFC;
+
     --blue-2: #2342C0;
     --purple-2: #5028C6;
 
@@ -23,6 +27,8 @@
 
     --width-primary: 182px;
     --height-primary: 48px;
+
+    --box-shadow: rgba(33, 36, 41, 0.05);
 }
 
 * {
