@@ -23,6 +23,8 @@
 
     --width-primary: 182px;
     --height-primary: 48px;
+
+    --histogram-width: 354px;
 }
 
 * {
