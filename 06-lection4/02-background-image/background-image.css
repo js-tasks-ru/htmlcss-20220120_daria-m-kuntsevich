@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 399.98px) {
+@media (max-width: 399px) {
   body {
     background-image: url("public/forest_400.jpg");
   }
