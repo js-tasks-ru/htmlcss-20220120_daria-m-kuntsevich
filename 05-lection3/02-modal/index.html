@@ -2,11 +2,39 @@
 <!-- Страница с модалкой -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/reset.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./modal.css">
+        <style>
+            html {
+                height: 100%;
+            }
+
+            body {
+                min-height: 100%; 
+                position: relative;
+            }
+
+            .button {
+                position: fixed;
+                left: 100px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        </style>
         <title>Modal</title>
     </head>
     <body>
+        <div class="modal" id="modal">
+            <div class="modal__window">
+                <button class="modal__close" id="modal-close"><span class=" sr-only">Close Modal Window</span></button>
+                <p class="modal__title">Modal title</p>
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+        <button class="button button_primary" id="modal-open">Open modal</button>
     </body>
     <script src="./index.js"></script> 
 </html>
