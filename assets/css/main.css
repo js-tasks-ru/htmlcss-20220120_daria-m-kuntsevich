@@ -28,11 +28,8 @@
     --width-primary: 182px;
     --height-primary: 48px;
 
-    --box-shadow: rgba(33, 36, 41, 0.05);
-}
-
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 
 }
 
