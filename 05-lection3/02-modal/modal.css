@@ -1,0 +1,63 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  
+    --opacity: .2;  
+    background-color: rgba(
+      var(--grey-neutral-dark-r),
+      var(--grey-neutral-dark-g),
+      var(--grey-neutral-dark-b),
+      var(--opacity)
+      );
+  
+    color: var(--grey-4);
+  }
+  
+  .modal__window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    max-width: 428px;
+    padding: 30px 40px 33px;
+    border-radius: var(--border-radius);
+  
+    background-color: var(--white);
+  }
+  
+  .modal__title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: var(--grey-8);
+  }
+  
+  .modal__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 44px;
+    height: 44px;
+    /* 44px width and 44px height are to increase the touch aria of close-button */
+  
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .modal__close::after {
+    content: "\00d7";
+    font-size: 20px;
+  }
+  
+  .modal__close:hover {
+    color: var(--notification);
+  }
