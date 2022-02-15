@@ -6,7 +6,7 @@
 }
 
 .avatar__image_small {
-    object-fit:cover;
+    object-fit: cover;
     width: 102px;
     height: 102px;
     border-radius: 50%;
