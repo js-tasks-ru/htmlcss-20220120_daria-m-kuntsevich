@@ -25,6 +25,8 @@
     --height-primary: 48px;
 
     --histogram-width: 354px;
+
+    --background: #F9FAFC;
 }
 * {
     font-family: 'Inter', sans-serif;
