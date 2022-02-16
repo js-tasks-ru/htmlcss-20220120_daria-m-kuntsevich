@@ -5,7 +5,36 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./checkbox.css">
     </head>
-    <body>
-
+    <body style="display:inline-flex; flex-direction: column; gap: 10px; margin-left: 20px;">
+        <h5 style="font-family: Inter; font-style: normal; font-weight: 500; font-size: 12px; line-height: 18px; letter-spacing: 0.05em; text-transform: uppercase; color: #ACB5BD;">
+            CHECKBOX
+        </h5>
+        <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="name">
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg class="checkbox__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="4" fill="#4263EB"/>
+                        <path d="M8.5 14.5L12 18L20 9" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </div>
+                <div class="checkbox__title">
+                    Default 
+                </div>
+            </div>
+        </label>
+        <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="name" disabled>
+            <div class="checkbox__state">
+                <div class="checkbox__control">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="4" fill="#DDE2E5"/>
+                        </svg>                      
+                </div>
+                <div class="checkbox__title">
+                    Disabled 
+                </div>
+            </div>
+        </label>
     </body>
 </html>

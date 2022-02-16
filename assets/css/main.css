@@ -12,6 +12,8 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --blue-3: #4263EB;
+
     --blue-2: #2342C0;
     --purple-2: #5028C6;
 
@@ -25,6 +27,8 @@
     --height-primary: 48px;
 
     --histogram-width: 354px;
+
+    --background: #F9FAFC;
 }
 * {
     font-family: 'Inter', sans-serif;
