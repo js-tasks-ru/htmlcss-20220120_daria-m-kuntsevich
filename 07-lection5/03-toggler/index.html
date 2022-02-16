@@ -5,7 +5,39 @@
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
     </head>
-    <body>
+    <body style="display:inline-flex; flex-direction: column; gap: 10px; margin-left: 20px;">
+        <h5 style="font-family: Inter; font-style: normal; font-weight: 500; font-size: 12px; line-height: 18px; letter-spacing: 0.05em; text-transform: uppercase; color: #ACB5BD;">
+            TOGGLE BUTTON
+        </h5>
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" name="name">
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__switch">
 
+
+                    </div>
+                </div>
+                <div class="toggler__title toggler__title_off">
+                    Off 
+                </div>
+                <div class="toggler__title toggler__title_on">
+                    On
+                </div>
+            </div>
+        </label>
+        <label class="toggler">
+            <input class="toggler__input" type="checkbox" name="name" disabled>
+            <div class="toggler__state">
+                <div class="toggler__control">
+                    <div class="toggler__switch">
+
+                    </div>
+                </div>
+                <div class="toggler__title">
+                    Disabled 
+                </div>
+            </div>
+        </label>
     </body>
 </html>
