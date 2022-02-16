@@ -30,10 +30,6 @@
     justify-content: center;
     }
 
-    /*.radio__icon {
-        display: none;
-    }*/
-
     .radio__title{
     border-bottom: 2px solid transparent;
     display: inline-block;
@@ -50,11 +46,6 @@
         border: 2px solid var(--white);
         outline: 2px solid var(--primary);
     }
-
-    /*.radio__input:checked ~ .radio__state .radio__icon{
-        display: block;
-    }*/
-
 
     .radio__input:focus ~ .radio__state .radio__title{
         border-bottom-color: var(--grey-2);
