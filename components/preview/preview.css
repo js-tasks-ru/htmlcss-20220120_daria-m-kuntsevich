@@ -1,0 +1,11 @@
+.preview {
+    display: flex;
+    padding: 67px 0 92px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 768px) {
+    .preview {
+        padding: 22px 16px;
+    }
+}

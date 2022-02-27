@@ -1,0 +1,27 @@
+.header {
+    padding: 96px 0 77px;
+    background: var(--white);
+}
+.header__title {
+    font-family: Inter, sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: var(--black);
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 96px 16px 69px;
+    }
+
+    .header__title {
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+    }
+
+} 
