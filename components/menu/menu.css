@@ -1,0 +1,39 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 229px;
+}
+.menu__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.menu__body {
+    margin-top: 16px;
+}
+.menu__item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+    cursor: pointer;
+}
+.menu__item_selected {
+    color: #D84910;
+    cursor: default;
+}
+
+.menu__footer {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+}
