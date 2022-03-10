@@ -17,6 +17,10 @@ align-items: center;
 gap: 12px;
 }
 
+.toggler__state--space {
+    justify-content: space-between;
+}
+
 .toggler__control{
 width: 52px;
 height: 28px;
